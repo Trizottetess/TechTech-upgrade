@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a.nav {
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+    font-family: "Inter", serif;
+    font-weight: 800;
+
+}
+
+a:hover.nav {
+    transition: .3s;
+    font-size: large;
+    color: #006F8D;
+}
+
+.boxLine {
+    height: 2px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.lineHeader {
+    background-color: black;
+    width: 50rem;
+    height: 1px;
+}
+
+.every {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ==========================================   box de login e registrar   ============================================================== */
+
+.containerLog {
+    width: 30rem;
+    height: 45rem;
+    margin-left: 10rem;
+    border-radius: 20px;
+    box-shadow: 1px 0px 7px 5px rgb(215, 215, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(208, 207, 207);
+}
+
+.textLog {
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+    border-radius: 20px;
+    padding: .8rem;
+    position: relative;
+    bottom: 6rem;
+}
+
+.boxLogin {
+    width: 30rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 25rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgb(208, 207, 207);
+    background-color: rgb(195, 195, 195);
+    border: solid 1px rgb(164, 164, 164);
+    padding-left: 10px;
+    outline: none;
+}
+
+input::placeholder {
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    opacity: 36%;
+    font-weight: 800;
+}
+
+
+
+.btnLog {
+    width: 10rem;
+    height: 2rem;
+    text-decoration: none;
+    border: 1px solid rgb(208, 207, 207);
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    border-radius: 100px;
+    font-weight: 800;
+}
+
+.line {
+    background-color: black;
+    width: 27rem;
+    height: 1px;
+}
+
+.opcLog {
+    width: 30rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook{
+    width: 25rem;
+    height: 2rem;
+    border: solid 1px rgb(208, 207, 207);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    background-color: #0278FF;
+    font-weight: 800;
+    color: white;
+}  
+
+.imgFace {
+    display: flex;
+    flex-direction: unset;
+    position: relative;
+    right: .5rem;
+    bottom: 2px;
+
+}
+
+.google {
+    width: 25rem;
+    height: 2rem;
+    border: solid 1px rgb(208, 207, 207);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+
+.imgGoogle {
+    display: flex;
+    flex-direction: unset;
+    position: relative;
+    right: 1rem;
+}
+
+.register {
+    width: 25rem;
+    height: 2rem;
+    border: solid 1px rgb(208, 207, 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+
+.space {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+h4 {
+    font-family: "Inter", sans-serif;
+}
+
+.lineOu {
+    width: 12rem;
+    background-color: black;
+    height: 1px;
+    margin-right: 1rem;
+}
+
+.lineO {
+    width: 12rem;
+    background-color: black;
+    height: 1px;
+    margin-left: 1rem;
+}
+
+/* ==========================================   box da logo   ============================================================== */
+
+.containerLogo {
+    /* background-color: black; */
+    width: 58rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.containerBall {
+    width: 50rem;
+    height: 45rem;
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: unset;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15rem;
+    bottom: 10rem;
+}
+
+.ballOne {
+    background-color: black;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid white;
+    border-radius: 400px;
+}
+
+.ballTwo {
+    background-color: black;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid white;
+    border-radius: 360px;
+    position: relative;
+    right: 5rem;
+    top: 5rem;
+}
+
+.ballTree {
+    background-color: black;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid white;
+    border-radius: 360px;
+    position: relative;
+    right: 25rem;
+    top: 7rem;
+}
+
+.ballFour {
+    background-color: black;
+    width: 7rem;
+    height: 7rem;
+    border: 1px solid white;
+    border-radius: 360px;
+    position: relative;
+    right: 31rem;
+    top: 13rem;
+}
+
+.ballFive {
+    background-color: black;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid white;
+    border-radius: 360px;
+    position: relative;
+    right: 28rem;
+    top: 18rem;
+}
+
+.ballSix {
+    background-color: black;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid white;
+    border-radius: 360px;
+    position: relative;
+    right: 35rem;
+    top: 20rem;
+}
+
+.ballSeven {
+    background-color: black;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid white;
+    border-radius: 360px;
+    position: relative;
+    right: 48rem;
+    top: 22rem;
+}
