@@ -320,3 +320,21 @@ h4 {
     right: 48rem;
     top: 22rem;
 }
+
+/* ==========================================   overlay   ============================================================== */
+
+.overlay {
+    position: fixed; /* Fica fixo na tela */
+        top: 0;
+        left: 0;
+        width: 100vw; /* Cobre a largura inteira da tela */
+        height: 100vh; /* Cobre a altura inteira da tela */
+        background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999; /* Acima de todos os elementos */
+        display: none;
+}
+
+
