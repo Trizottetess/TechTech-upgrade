@@ -337,4 +337,17 @@ h4 {
         display: none;
 }
 
+.boxRegister {
+    background-color: white;
+    width: 30rem;
+    height: 45rem;
+    margin-left: 10rem;
+    border-radius: 20px;
+    box-shadow: 1px 0px 7px 5px rgb(88, 88, 88);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(208, 207, 207);
+}
 
