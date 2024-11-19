@@ -351,3 +351,121 @@ h4 {
     border: 1px solid rgb(208, 207, 207);
 }
 
+/* ==========================================   responsividade   ============================================================== */
+
+@media (max-width: 1920px) {
+    .containerBall {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .ballOne {
+        background-color: black;
+        width: 5rem;
+        height: 5rem;
+        border: 1px solid white;
+        border-radius: 400px;
+    }
+    
+    .ballTwo {
+        background-color: black;
+        width: 10rem;
+        height: 10rem;
+        border: 1px solid white;
+        border-radius: 360px;
+        position: relative;
+        right: 5rem;
+        top: 5rem;
+    }
+    
+    .ballTree {
+        background-color: black;
+        width: 10rem;
+        height: 10rem;
+        border: 1px solid white;
+        border-radius: 360px;
+        position: relative;
+        right: 25rem;
+        top: 7rem;
+    }
+    
+    .ballFour {
+        background-color: black;
+        width: 7rem;
+        height: 7rem;
+        border: 1px solid white;
+        border-radius: 360px;
+        position: relative;
+        right: 31rem;
+        top: 13rem;
+    }
+    
+    .ballFive {
+        background-color: black;
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid white;
+        border-radius: 360px;
+        position: relative;
+        right: 28rem;
+        top: 18rem;
+    }
+    
+    .ballSix {
+        background-color: black;
+        width: 5rem;
+        height: 5rem;
+        border: 1px solid white;
+        border-radius: 360px;
+        position: relative;
+        right: 35rem;
+        top: 20rem;
+    }
+    
+    .ballSeven {
+        background-color: black;
+        width: 5rem;
+        height: 5rem;
+        border: 1px solid white;
+        border-radius: 360px;
+        position: relative;
+        right: 48rem;
+        top: 22rem;
+    }
+
+    .containerLog {
+        width: 25rem;
+        height: 35rem;
+        margin-right: 5rem;
+    }
+
+    input {
+        width: 22.5rem;
+    }
+
+    a.facebook, .google, .register {
+        width: 22.5rem;
+    }
+
+    .line {
+        width: 23rem;
+    }
+
+    .lineOu, .lineO {
+        width: 10rem;
+    }
+
+    .textLog {
+        bottom: 15px;
+    }
+
+    .containerLogo {
+        height: 20rem;
+    }
+
+    a.register {
+        margin-bottom: 1rem;
+    }
+
+    
+}
